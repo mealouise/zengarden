@@ -14,13 +14,14 @@ h2 {
 
 
 body { 
-    background-image: url(../img/bamboo.png);
-    
+    /* background-image: url(../img/bamboo.png); */
+    background-color: white;
 }
 
 p {
-    font-size: 10px;
+    font-size: 12px;
     font-family: IBM Plex Mono;
+    
 }
 
 h3 {
@@ -33,7 +34,8 @@ h3 {
 div[role="article"] {
     color:black;
     line-height: 2;
-    padding-left: 100px;
+    padding-left: 80px;
+    padding-right: 110px;
     
 }
 /* attribute */
@@ -45,7 +47,7 @@ h3 {
 header {
     background-image: url(../img/huntington.png);
     height: 200px;
-    padding-top: 100px;
+    padding-top: 65px;
     color: white;
     text-align: center;
 }
@@ -62,40 +64,83 @@ header {
     font-size: 16px;
 }
 
-.participation p {
+[role="contentinfo"] {
+    padding-top: 50px;
+}
+
+
+
+.participation {
     background-color: rgba(138,188,159,0.5);
+    background-image: url(../img/bamboo.png);
+    padding-left: 100px;
+    padding-bottom: 20px;
+}
+
+.participation p {
     color: white;
+}
+.participation a:link {
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+[title="Cascading Style Sheets"] a:link {
+    color: black;
+}
+/* doesn't work */
+
+.summary a:link {
+    color: black;
+    text-decoration: none;
+}
+
+.benefits {
+    background-color: rgba(138,188,159,0.5);
+    background-image: url(../img/bamboo.png);
+    padding-left: 100px;
 }
 
 .benefits p{
-    background-color: rgba(138,188,159,0.5);
     color: white;
 }
 
 [role="contentinfo"] {
-    background-color: #134347;
-    color: grey:
+    background-color: green;
+    color: grey;
+    padding-top: 15px;
+    padding-bottom: 25px;
+    
+    
 }
 
+[role="contentinfo"] a:link {
+    font-family: Satisfy;
+    color: white;
+    font-size: 20px;
+}
 
 .zen-resources {
     background-color:rgba(138,188,159,0.5);
+    background-image: url(../img/bamboo.png);
     font-family: IBM Plex Mono;
-    text-transform: uppercase;
+    
 }
 .sidebar {
     background-color: #c0cac3;
     font-family: IBM Plex Mono;
     border-top: solid 1px;
 }
+
 .footer {
+    background-color: #134347;
     text-align: center;
 }
 
 .design-selection li {
     border-top: solid 0.5px;
-    border-color: grey;
-    padding
+    border-color: grey;   
 }
 
 .zen-resources li {
@@ -103,16 +148,77 @@ header {
     border-color: grey;
 }
 
+.design-name {
+    color: black;
+    font-size: 15px;
+    font-family: IBM Plex Mono;
+    text-decoration:none;
+}
+
 .designer-name {
     color: grey;
     font-size: 10px;
+    text-decoration:none;
 }
 .summary {
     padding-top: 15px;
     padding-bottom: 15px;
 }
 .preamble p {
-    padding-bottom:5px;
+    padding-bottom: 10px;
+    line-break: auto;
 }
 
+.preamble {
+    padding-bottom: 25px;
 
+}
+.requirements p {
+    line-break: auto;
+    padding-top: 10px;
+}
+.requirements {
+    padding-top:20px;
+}
+
+.requirements a:link {
+    color:black ;
+    text-decoration: none;
+}
+
+[role="contentinfo"] a:link {
+    color: white;
+}
+
+.main supporting .explanation {
+    padding-top: 100px;
+}
+
+.next a:link {
+    color: grey;
+    text-decoration: none;
+}
+
+.viewall a:link {
+    color:grey;
+    text-decoration: none;
+}
+
+.navigation li {
+    list-style-position: none;
+}
+/* not worked*/
+
+
+/* [role="navigation"] {
+    display: flex;
+    flex-wrap: wrap'
+}
+.li {
+    width: 100%;
+} */
+
+.zen-resources a:link {
+    color: #134347;
+    text-decoration: none;
+}
