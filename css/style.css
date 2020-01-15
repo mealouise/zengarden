@@ -66,6 +66,7 @@ header {
 
 [role="contentinfo"] {
     padding-top: 50px;
+    text-align: center;
 }
 
 
@@ -109,8 +110,9 @@ header {
 [role="contentinfo"] {
     background-color: green;
     color: grey;
-    padding-top: 15px;
+    padding-top: 25px;
     padding-bottom: 25px;
+    line-break: auto;
     
     
 }
@@ -133,9 +135,22 @@ header {
     border-top: solid 1px;
 }
 
-.footer {
+#css-zen-garden footer {
     background-color: #134347;
     text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#css-zen-garden footer a:link {
+    color: white;
+    font-size: 25px;
+    text-decoration: none;
+    margin-right: 25px;
+}
+
+#css-zen-garden footer a:hover {
+    background-color: #c0cac3;
 }
 
 .design-selection li {
@@ -146,6 +161,7 @@ header {
 .zen-resources li {
     border-top: solid 1px;
     border-color: grey;
+    list-style-type: none;
 }
 
 .design-name {
@@ -221,4 +237,11 @@ header {
 .zen-resources a:link {
     color: #134347;
     text-decoration: none;
+}
+[role="navigation"] li {
+    list-style-type: none;
+}
+
+.explanation p {
+    line-break: auto;
 }
