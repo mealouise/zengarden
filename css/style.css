@@ -101,6 +101,7 @@ header {
     background-color: rgba(138,188,159,0.5);
     background-image: url(../img/bamboo.png);
     padding-left: 100px;
+    /* background-position: left 20% bottom 45%; */
 }
 
 .benefits p{
@@ -245,3 +246,20 @@ header {
 .explanation p {
     line-break: auto;
 }
+
+[role="banner"] h1 {
+    background:red;
+    transition: border-radius 3s;
+    transition-timing-function: linear; 
+    /* animation-name: box;
+    animation-duration: 5s;
+    animation-delay: 10s;
+    animation-direction: alternate; */
+}
+[role="banner"] h1:hover {
+    border-radius: 50%;;
+}
+
+.square [
+
+]
