@@ -110,6 +110,7 @@ header {
 
 [role="contentinfo"] {
     background-color: green;
+    width: 100%;
     color: grey;
     padding-top: 25px;
     padding-bottom: 25px;
@@ -123,6 +124,10 @@ header {
 [role="contentinfo"] a:link {
     font-family: Satisfy;
     color: white;
+    font-size: 40px;
+}
+
+[role="contentinfo"] {
     font-size: 20px;
 }
 
@@ -134,9 +139,8 @@ header {
     
 }
 .sidebar {
-    background-color: #c0cac3;
+    /* background-color: #c0cac3; */
     font-family: IBM Plex Mono;
-    border-top: solid 1px;
 }
 
 #css-zen-garden footer {
@@ -153,15 +157,7 @@ header {
     margin-right: 25px;
 }
 
-
-.design-selection li {
-    border-top: solid 0.5px;
-    border-color: grey;   
-}
-
 .zen-resources li {
-    border-top: solid 1px;
-    border-color: grey;
     list-style-type: none;
 }
 
@@ -223,22 +219,9 @@ header {
 .viewall a:link {
     color:grey;
     text-decoration: none;
-    
+  
 }
 
-/* .navigation li {
-    /* list-style-position: none; */
-/* }
-not worked */ */
-
-
-/* [role="navigation"] {
-    display: flex;
-    flex-wrap: wrap'
-}
-.li {
-    width: 100%;
-} */
 
 .zen-resources a:link {
     color: #134347;
@@ -247,7 +230,6 @@ not worked */ */
 [role="navigation"] li {
     list-style-type: none;
     text-align: center;
-    width
 }
 
 .explanation p {
@@ -257,4 +239,111 @@ not worked */ */
 [role="navigation"] {
     display: flex;
     flex-wrap: wrap;
+}
+
+
+.zen-validate-html {
+    color: white;
+}
+
+.zen-validate-css {
+    color: white;
+}
+
+.zen-license {
+    color: white;
+}
+
+.zen-accessibility {
+    color: white;
+}
+
+.zen-github {
+    color: white;
+}
+
+.view-css a {
+    color: #54575c;
+    text-decoration: none;
+    list-style-type: none;
+    padding-bottom: 10px;
+}
+
+.css-resources a {
+    color: #54575c;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+.zen-faq a {
+    color: #54575c;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+.zen-submit a {
+    color: #54575c;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+.zen-translations a {
+    color: #54575c;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+.resources {
+    visibility: hidden;
+}
+
+.zen-resources {
+    display: flex;
+}
+
+.select {
+    visibility: hidden;
+}
+
+.archives {
+    visibility: hidden;
+}
+
+
+div.design-selection li{
+    height: 20px;
+    width:20px;
+    /* width:50% */
+}
+
+
+nav [role="navigation"] ul {
+    display:flex;
+    margin:0;
+    padding: 0;
+    /* flex-wrap:wrap; */
+    list-style: none;
+}
+
+
+
+
+.zen-participation p {
+    color: white;
+}
+
+#zen-participation p {
+    color: white;
+}
+
+#zen-benefits p {
+    color: white;
+}
+
+.participation a {
+    color: black;
+}
+
+#zen-requirements {
+    background-color:white;
 }
